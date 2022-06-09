@@ -1,6 +1,26 @@
+.hero {
+    background: #FFB319;
+    text-align: center;
+    margin-top: 47px;
+}
+
+.hero h1 {
+    color: #E8F6EF;
+    line-height: 98.21px;
+    padding-top: 47px;
+}
+
+.hero h2 {
+    color: #E8F6EF;
+    font-size: 24px;
+    line-height: 35px;
+    padding-bottom: 47px;
+}
+
 h1 {
-    font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
     font-weight: 700;
+    font-size: 72px;
 }
 
 h2 {
