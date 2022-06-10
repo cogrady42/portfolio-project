@@ -1,8 +1,12 @@
 :root {
-    --branding-color: #FFB319;
-    --background-color: #E8F6EF;
+    --branding-color: #94B49F;
+    --background-color: #FCF8E8;
     --heading-font-family: 'Raleway', sans-serif;
     --body-font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
 }
 
 .hero {
