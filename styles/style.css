@@ -1,6 +1,6 @@
 :root {
-    --branding-color: #94B49F;
-    --background-color: #FCF8E8;
+    --branding-color: #6C63FF;
+    --background-color: white;
     --heading-font-family: 'Raleway', sans-serif;
     --body-font-family: 'Poppins', sans-serif;
 }
@@ -41,4 +41,30 @@ h2 {
 p {
     font-family: var(--body-font-family);
     font-weight: 400;
+}
+
+.container {
+    margin: 100px; 
+}
+
+.container h2 {
+    font-size: 28px;
+    line-height: 38px;
+}
+
+img {
+    max-width: 560px;
+    border-radius: 12px;
+}
+
+@media (max-width: 500px) {
+
+    .container h2 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    img {
+        min-width: 100%;
+    }
 }
