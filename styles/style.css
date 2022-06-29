@@ -7,6 +7,7 @@
 
 body {
     background-color: var(--background-color);
+    text-align: center;
 }
 
 .hero {
@@ -69,6 +70,38 @@ img {
     border-radius: 12px;
 }
 
+.about-content {
+max-width: 960px;}
+
+.about-content h1{
+    text-align: left;
+}
+
+.about-content h2 {
+    text-align: left;
+    font-size: 25px;
+    line-height: 1.25;
+}
+
+.about-content p {
+    text-align: left;
+}
+
+
+
+.btn-about {
+    font-family: var(--body-font-family);
+    color: var(--background-color);
+    background-color: var(--branding-color);
+    text-align: left;
+}
+
+.btn-about:hover {
+    background-color: #867ffd ;
+    border: 1px solid var(--background-color);
+    color: var(--background-color);
+}
+
 @media (max-width: 500px) {
 
     .container h2 {
@@ -76,11 +109,17 @@ img {
         text-align: center;
     }
 
-    img {
-        min-width: 100%;
-    }
-
     .second-col {
         margin-top: 50px;
     }
+
+    .about-content h1 {
+       text-align: center;
+    }
+
+    .about-content p {
+        text-align: center;
+    }
+
 }
+
