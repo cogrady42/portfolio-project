@@ -72,23 +72,22 @@ img {
 
 .img-profile {
     max-height: 500px;
-    object-fit: cover;
 }
 
-.about-content {
+.content {
 max-width: 960px;}
 
-.about-content h1{
+.content h1{
     text-align: left;
 }
 
-.about-content h2 {
+.content h2 {
     text-align: left;
     font-size: 25px;
     line-height: 1.25;
 }
 
-.about-content p {
+.content p {
     text-align: left;
 }
 
