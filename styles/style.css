@@ -7,13 +7,11 @@
 
 body {
     background-color: var(--background-color);
-    text-align: center;
 }
 
 .hero {
     background: var(--branding-color);
     text-align: center;
-    margin-top: 47px;
 }
 
 .hero h1 {
@@ -32,6 +30,10 @@ h1 {
 font-family: var(--heading-font-family);
     font-weight: 700;
     font-size: 72px;
+}
+
+.header {
+    text-align: center;
 }
 
 h2 {
@@ -56,11 +58,11 @@ p {
     color: #6C63FF;
 }
 
-.container {
+.content-container {
     margin: 100px; 
 }
 
-.container h2 {
+.content-container h2 {
     font-size: 28px;
     line-height: 38px;
 }
@@ -72,6 +74,7 @@ img {
 
 .img-profile {
     max-height: 500px;
+    margin-left: 60px;
 }
 
 .content {
@@ -95,13 +98,45 @@ max-width: 960px;}
     font-family: var(--body-font-family);
     color: var(--background-color);
     background-color: var(--branding-color);
-    text-align: left;
+    text-align: center;
 }
 
 .btn-about:hover {
     background-color: #867ffd ;
     border: 1px solid var(--background-color);
     color: var(--background-color);
+}
+
+.logo {
+    max-height: 50px;
+    text-align: left;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+nav ul {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    list-style: none;
+    line-height: 42px;
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    transition: all 110ms ease-in-out;
+}
+
+nav a:hover,  nav a.active  {
+    color: var(--branding-color);
 }
 
 @media (max-width: 500px) {
@@ -115,13 +150,16 @@ max-width: 960px;}
         margin-top: 50px;
     }
 
-    .about-content h1 {
+    .content h1 {
        text-align: center;
     }
 
-    .about-content p {
+    p {
         text-align: center;
     }
 
+    nav a {
+        font-size: 15px;
+    }
 }
 
